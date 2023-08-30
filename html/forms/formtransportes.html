@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <header>
+        <h1>formulario de transporte</h1>
+    </header>
+    <article>
+        <form action="mailto:pedrohenriquefranciscoleite@gmail.com
+                    <label for="email">e-Mail:</label>
+                <input type="email" id="email" name="email" size="50">
+                <br><br>
+                <p>Você mora:</p>
+                <input type="radio" name="lugar" id="city" value="C">
+                <label for="city">cidade</label>
+                <br>
+                <input type="radio" name="lugar" id="downtown" value="D">
+               <label for="downtown">interior</label>
+           </fieldset>
+            <br><br>
+            <fieldset>
+                
+                <legend><strong>Informaçôes extras:</strong></legend>
+            <p> qual meio de transporte você usa?</p>
+             <input type="checkbox" name="transporte" id="bike" value="bike">
+             <label for="bike">bicicleta</label>
+             <br>
+             <input type="checkbox" name="transporte2" id="car" value="car">
+             <label for="car">carro</label>
+             <br>
+             <input type="checkbox" name="transporte3" id="metro" value="metro">
+             <label for="metro">metrô</label>
+             <br>
+             <input type="checkbox" name="transporte4" id="bus" value="bus">
+             <label for="bus">õnibus</label>
+             <br><br>      
+            
+             <label for="game">escolha seu tipo de jogo:</label>
+             <br>
+             <select name="game" id="game">
+                <!--option é as opçôes da lista-->
+                <!--value sâo os valores de escolha-->
+                <option value="fps">FPS</option>
+                <option value="adv">Adventure</option>
+                <option value="rpg">RPG</option>
+                <option value="moba">M.O.B.A</option>
+                <option value="sport">Sport's</option>
+                </select>
+               <br><br>
+
+              <!--=aqui inicia o datalist ou lista de dados-->
+              <label for="regiâo">escolha a sua cidade: &nbsp;</label>
+              <input list="cidade" name="city2" id="regiao"
+                     placeholder="digite sua cidade">
+                     <datalist id="cidade">
+                     <option value="Recife"></option>
+                     <option value="Olinda"></option>
+                     <option value="Cabo"></option>
+                     <option value="Paulista"></option>
+                     <option value="Moreno"></option>
+                     <option value="Camaragibe"></option>
+                     <option value="Jaboatâo dos guararapes"></option>
+                     </datalist>
+            </fieldset>     
+                     <br><br>
+        <fieldset>
+            <legend><strong>opiniâo:</strong></legend>
+                       <label for="valor01">o quanto você curtiu o formulario:</label>
+                       <br><br>
+        0 <input type="range" id="valor01" name="valor01"> 100 + 
+
+        <input type="number" name="valor02" id="valor02" value="10">
+        =
+        <output name="resultado" id="resultado" ></output>
+         </fieldset>
+        <br>
+        <fieldset>
+            <legend><strong>feedback</strong></legend>
+        <p>Sugestôes, elogios e criticas</p>
+        <textarea name="msg"  cols="30" rows="10" placeholder="digite sua mensagem"
+             required></textarea> <br><br>
+            </fieldset>
+             <input type="submit" value="enviar">
+         </form>
+    </article>
+    <br><br><br><hr>
+    <footer>
+         <small>by pedro henrique &copy;</small>
+    </footer>
+</body>
+</html>
