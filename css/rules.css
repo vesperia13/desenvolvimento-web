@@ -1,0 +1,90 @@
+/* Seletor universal todas as regras desse escopo
+ sâo aplicadas a todos os elementos*/
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(233, 197, 231);
+    font-family: 'Roboto', sans-serif;
+}
+
+    header{
+        background-color: mistyrose;
+        width: 80%; /* Largura */
+        height: 20vh; /* Altura */
+        margin-left: 10%; /* Margem à esquerda */
+        margin-top: 9px; /* Margem no topo */
+        /* ValorEspessura, tipotraço, CorLinha*/
+        border: 1px solid rgb(104, 5, 74);
+    
+        /* Alinhamento(Interno) do conteiner*/
+        display: flex;
+        justify-content: center; /* Alinhamento Horizontal */
+        align-items: center; /* AlinhamentoVertical */
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+
+    }
+
+    nav a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: rgb(78, 10, 22);
+    }
+
+    section {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    section.usar h2 {
+        background-color: mistyrose;
+        margin-bottom: 15px;
+        text-shadow: 3px 1.5px rgb(230, 136, 191);
+
+    }
+    section.usar p {
+        color: rgb(90, 11, 44);
+        letter-spacing: 0.1rem;
+    }
+    section.usar img{
+        margin-top: 15px;
+        border: 10px double rgb(104, 4, 59);
+    }
+    section.font {
+        font-weight: 300;
+        border-top: 8px solid mistyrose;
+        line-height: 24px;
+    }
+
+    section.font img{
+        border: 5px double pink;
+    }
+    section.font p{
+        text-align: justify;
+    }
+    span{
+        font-family: monospace;
+        background-color: #111;
+        color: red;
+        padding: 2px;
+        font-size: 0,8rem;
+    }
+    li {
+
+    }
+    section.text {
+        background-color: mistyrose;
+    }
+
+    section.color {
+        background-color: mistyrose;
+    }
