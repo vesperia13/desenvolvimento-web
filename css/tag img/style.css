@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: mistyrose;
+}
+
+header h1 {
+     background-color: rgb(128, 7, 111);
+     margin-top: 32px;
+     margin-bottom: 32px;
+     text-align: center;
+     color: pink;
+     text-shadow: 1px 1px 1px palevioletred;
+     line-height: 100px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+img {
+    width: 300px;
+    height: 350px;
+    border: 4px solid rgb(238, 139, 216);
+    border-radius: 10px; /* Arredondar bordas */
+ }
+
+ footer {
+    text-align: right;
+    line-height: 80px;
+    margin-top: 15px;
+    border-top: 4px solid rgb(238, 139, 216);
+ }
+
+ figcaption {
+    text-align: center;
+ }
